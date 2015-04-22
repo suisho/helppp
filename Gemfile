@@ -7,8 +7,6 @@ gem "slim", ">= 2.0"
 
 gem 'puma'
 gem 'rack-contrib'
-gem 'rack-ssl'
-gem 'rack-cache'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
