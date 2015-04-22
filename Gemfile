@@ -2,9 +2,13 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
-gem "puma"
 gem "middleman", "~>3.3.10"
 gem "slim", ">= 2.0"
+
+gem 'puma'
+gem 'rack-contrib'
+gem 'rack-ssl'
+gem 'rack-cache'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
